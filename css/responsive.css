@@ -1,0 +1,215 @@
+@media only screen and (min-width: 0px) and (max-width: 767px){
+    .container{
+        max-width: 540px;
+        width: 100%;
+    }
+    nav{
+        position: relative;
+    }
+    nav ul{
+        display: none;
+        z-index: 1;
+        position: absolute;
+        width: 540px;
+        top: 100%;
+        background-color: #ffffff;
+    }
+    .show{
+        display: block;
+    }
+    nav ul li{
+        padding: 12px 20px;
+        width: 100%;
+    }
+    nav ul li a{
+        font-size: 20px;
+    }
+    nav ul li a.active::after,
+    nav ul li a:hover::after{
+        background:#d2d6e4;
+    }
+    nav ul li a.active{
+        color: initial;
+    }
+    nav .navbar-btn{
+        display: none;
+    }
+    .nav-bars{
+        display: block;
+    }
+    .bg{
+        display: none;
+    }
+    .hero-container{
+        z-index: 1;
+        opacity: 0.8;
+        background: rgba(2, 10, 39, 0.7);
+    }
+    .hero-content{
+        padding: 0;
+        margin-top: 40%;
+    }
+    .hero-text{
+        padding-right: 0;
+        padding: 44px;
+    }
+    .slide-img{
+        width: 100%;
+    }   
+    .hero-text h1, .hero-text h1 span{
+        font-size: 40px;
+        line-height: 48px;
+    } 
+    #service .services .content{
+        padding: 0px 30px;
+    }
+    #service .services .content h2{
+        font-size: 42px;
+        line-height: 54px;
+        font-weight: 700;
+    }
+    #service .services .service-item .card{
+        width: 100%;
+        height: 100%;
+    }
+    #business .business-content{
+        flex-wrap: wrap;
+        gap: 34px;
+    }
+    #business .business-content .img-part{
+        margin-top: 0px;
+        padding-left: 0;
+    }
+    #business .business-content .img-part .img-one{
+        display: none;
+    }
+    #business .business-content .img-part .img-two img{
+        width: 540px;
+        height: auto;
+    }
+    #business .business-content .img-part .img-two{
+        margin-top: 0;
+        margin-right: 0;
+        width: 100%;
+        margin-left: 0;
+    }
+    #business .business-content .img-part .img-two .topper-img{
+        width: 100%;
+        justify-content: center;
+    }
+    #business .business-content .img-part .img-two .topper-img .video-btn{
+        margin-left: 0%;
+    }
+    #business .business-content .content-part .business-items{
+        grid-template-columns: auto;
+    }
+    .grid-container{
+        grid-template-columns: auto auto;
+        height: auto;
+        gap: 20px 0;
+        padding: 20px;
+    }
+    .grid-item .number{
+        font-size: 38px;
+        line-height: 58px;    
+    }
+    .grid-item{
+        padding: 10px 0;
+    }
+    .grid-item:nth-child(2) .divider{
+        display: none;
+    }
+    #services-with-deal{
+        height: auto;
+        background: #F3F4F8;
+        padding: 100px 0px 80px 0px;
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+    .agency-part{
+        gap: 50px;
+    }
+    .agency-part .heading-text{
+        padding: 0 22px;
+    }
+    .agency-part .deal-items{
+       justify-content: center;
+        flex-wrap: wrap;
+        gap: 38px;
+    }
+    .agency-part .deal-items .service-card{
+        width: 100%;
+    }
+    #process-area{
+        height: auto;
+        padding: 80px 0px;
+    }
+    .proces-title{
+        padding: 0px 20px;
+    }
+    .process-step .proce-bg{
+       display: none;
+    }
+    .process-step{
+        height: auto;
+    }
+    .process-cards{
+        flex-direction: column;
+        gap: 0px;
+    }
+    .process-card{
+        width: auto;
+        padding: 24px 34px;
+        gap: 20px;
+    }
+    .total-packages{
+       flex-wrap: wrap;
+    }
+    .card-pack{
+        width: 80%;
+    }
+    .item-card{
+        max-width: 258px;
+        width: 100%;
+        height: auto;
+    }
+    .card-bg{
+        height: 170px;
+    }
+    .item-body{
+        padding: 30px 20px;
+     }
+     .card-title img{
+        width: 90px;
+        height: 40px;
+    }
+    .card-title h5{
+        margin-left: 40px;   
+    }
+    .work-items{
+        flex-wrap: wrap;
+    }
+    .total-article{
+        flex-wrap: wrap;
+    }
+    .cloud-card-one{
+       width: 500px;
+    }
+    .footer-top{
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 16px;
+    }
+    .footer-top .sub-menu{
+        width: 90%;
+    }
+    .footer-mid{
+       flex-wrap: wrap;
+       justify-content: flex-start;
+    }
+    .footer-text{
+      flex-wrap: wrap-reverse;
+      gap: 50px;
+      justify-content: center;
+    }
+}
